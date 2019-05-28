@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="93.59166666666665" y="164.0">ru.textanalysis.synonims.service.TextProcessor</node>
+    <node x="129.8083333333333" y="0.0">ru.textanalysis.synonims.data.Word</node>
+    <node x="246.0" y="241.0">ru.textanalysis.synonims.controller.HelloController</node>
+    <node x="0.0" y="241.0">ru.textanalysis.synonims.controller.DictionaryOfSynonimServlet</node>
+    <node x="80.21666666666665" y="87.0">ru.textanalysis.synonims.service.SynonimsRows</node>
+    <node x="0.0" y="313.0">ru.textanalysis.synonims.Application</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.textanalysis.synonims.controller.DictionaryOfSynonimServlet" target="ru.textanalysis.synonims.service.TextProcessor">
+      <point x="0.0" y="-13.5" />
+      <point x="113.0" y="216.0" />
+      <point x="116.09166666666665" y="216.0" />
+      <point x="-45.0" y="13.5" />
+    </edge>
+    <edge source="ru.textanalysis.synonims.service.TextProcessor" target="ru.textanalysis.synonims.service.SynonimsRows">
+      <point x="-16.875" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="ru.textanalysis.synonims.controller.DictionaryOfSynonimServlet" target="ru.textanalysis.synonims.data.Word">
+      <point x="-75.33333333333331" y="-13.5" />
+      <point x="37.666666666666686" y="216.0" />
+      <point x="69.71666666666664" y="216.0" />
+      <point x="69.71666666666664" y="47.0" />
+      <point x="135.8083333333333" y="47.0" />
+      <point x="-30.0" y="13.5" />
+    </edge>
+    <edge source="ru.textanalysis.synonims.service.TextProcessor" target="ru.textanalysis.synonims.data.Word">
+      <point x="50.625" y="-13.5" />
+      <point x="211.71666666666664" y="139.0" />
+      <point x="227.29166666666666" y="139.0" />
+      <point x="227.29166666666666" y="57.0" />
+      <point x="183.8083333333333" y="57.0" />
+      <point x="18.0" y="13.5" />
+    </edge>
+    <edge source="ru.textanalysis.synonims.service.SynonimsRows" target="ru.textanalysis.synonims.data.Word">
+      <point x="-2.8421709430404007E-14" y="-13.5" />
+      <point x="144.21666666666664" y="67.0" />
+      <point x="159.8083333333333" y="67.0" />
+      <point x="-6.0" y="13.5" />
+    </edge>
+    <edge source="ru.textanalysis.synonims.controller.HelloController" target="ru.textanalysis.synonims.service.TextProcessor">
+      <point x="-37.25" y="-13.5" />
+      <point x="283.25" y="216.0" />
+      <point x="206.09166666666664" y="216.0" />
+      <point x="45.0" y="13.5" />
+    </edge>
+    <edge source="ru.textanalysis.synonims.controller.HelloController" target="ru.textanalysis.synonims.data.Word">
+      <point x="37.25" y="-13.5" />
+      <point x="357.75" y="47.0" />
+      <point x="195.80833333333334" y="47.0" />
+      <point x="30.00000000000003" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="371.37301587301585" y="114.80555555555551" />
+  <SelectedNodes>
+    <node>ru.textanalysis.synonims.data.Word</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
